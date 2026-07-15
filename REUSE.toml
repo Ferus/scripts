@@ -333,12 +333,6 @@ SPDX-FileCopyrightText = [
 SPDX-License-Identifier = "GPL-3.0-or-later"
 
 [[annotations]]
-path = "perl/listsort.pl"
-precedence = "override"
-SPDX-FileCopyrightText = "2011 arza <arza@arza.us>"
-SPDX-License-Identifier = "GPL-3.0-or-later"
-
-[[annotations]]
 path = "perl/luanma.pl"
 precedence = "override"
 SPDX-FileCopyrightText = "2013 Nei <ailin@devio.us>"
@@ -674,12 +668,6 @@ SPDX-FileCopyrightText = [
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = "python/anti_password.py"
-precedence = "override"
-SPDX-FileCopyrightText = "2021 Sébastien Helleu <flashcode@flashtux.org>"
-SPDX-License-Identifier = "GPL-3.0-or-later"
-
-[[annotations]]
 path = "python/apply_corrections.py"
 precedence = "override"
 SPDX-FileCopyrightText = "2012 Chris Johnson <raugturi@gmail.com>"
@@ -856,15 +844,6 @@ precedence = "override"
 SPDX-FileCopyrightText = [
     "2009 Tor Hveem <xt@bash.no>",
     "2012-2021 Sébastien Helleu <flashcode@flashtux.org>",
-]
-SPDX-License-Identifier = "GPL-3.0-or-later"
-
-[[annotations]]
-path = "python/bufsize.py"
-precedence = "override"
-SPDX-FileCopyrightText = [
-    "2012-2017 Nils Görs <weechatter@arcor.de>",
-    "2012-2017 nesthib <nesthib@gmail.com>",
 ]
 SPDX-License-Identifier = "GPL-3.0-or-later"
 
@@ -1110,16 +1089,6 @@ SPDX-FileCopyrightText = "2012 Ryan Feng <odayfans@gmail.com>"
 SPDX-License-Identifier = "GPL-3.0-or-later"
 
 [[annotations]]
-path = "python/go.py"
-precedence = "override"
-SPDX-FileCopyrightText = [
-    "2009-2024 Sébastien Helleu <flashcode@flashtux.org>",
-    "2010 m4v <lambdae2@gmail.com>",
-    "2011 stfn <stfnmd@googlemail.com>",
-]
-SPDX-License-Identifier = "GPL-3.0-or-later"
-
-[[annotations]]
 path = "python/greentext.py"
 precedence = "override"
 SPDX-FileCopyrightText = "2023 AGVXOV <agvxov@gmail.com>"
@@ -1324,12 +1293,6 @@ SPDX-FileCopyrightText = "2019 Nils Görs <weechatter@arcor.de>"
 SPDX-License-Identifier = "GPL-3.0-or-later"
 
 [[annotations]]
-path = "python/listbuffer.py"
-precedence = "override"
-SPDX-FileCopyrightText = "2011-2013 Filip H.F. 'FiXato' Slagter <fixato@gmail.com>"
-SPDX-License-Identifier = "MIT"
-
-[[annotations]]
 path = "python/lnotify.py"
 precedence = "override"
 SPDX-FileCopyrightText = "2010-2019 kevr <kevr.gtalk@gmail.com>"
@@ -1358,12 +1321,6 @@ path = "python/maskmatch.py"
 precedence = "override"
 SPDX-FileCopyrightText = "2015-2016 Jos Ahrens <zarthus@lovebytes.me>"
 SPDX-License-Identifier = "MIT"
-
-[[annotations]]
-path = "python/maze.py"
-precedence = "override"
-SPDX-FileCopyrightText = "2012-2022 Sébastien Helleu <flashcode@flashtux.org>"
-SPDX-License-Identifier = "GPL-3.0-or-later"
 
 [[annotations]]
 path = "python/memon.py"

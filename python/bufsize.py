@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*-
 #
-# Copyright (c) 2012-2017 by nils_2 <weechatter@arcor.de>
-#                         and nesthib <nesthib@gmail.com>
+# SPDX-FileCopyrightText: 2012-2026 nils_2 <weechatter@arcor.de>
+# SPDX-FileCopyrightText: 2012-2017 nesthib <nesthib@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
 #
 # scroll indicator; displaying number of lines below last line, overall lines in buffer, number of current line and percent displayed
 #
@@ -18,6 +19,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
+# 2026-05-23: nils_2 (libera.#weechat)
+#        0.9: fix: two SyntaxWarning
 # 2017-08-17: nils_2 (freenode.#weechat)
 #        0.8: add support for buffer_filters_enabled and buffer_filters_disabled (WeeChat ≥ 2.0)
 # 2016-12-16: nils_2 (freenode.#weechat)
@@ -58,7 +61,7 @@ except Exception:
 
 SCRIPT_NAME     = "bufsize"
 SCRIPT_AUTHOR   = "nils_2 <weechatter@arcor.de>"
-SCRIPT_VERSION  = "0.8"
+SCRIPT_VERSION  = "0.9"
 SCRIPT_LICENSE  = "GPL"
 SCRIPT_DESC     = "scroll indicator; displaying number of lines below last line, overall lines in buffer, number of current line and percent displayed"
 
@@ -70,10 +73,10 @@ OPTIONS         = { 'format'            : ('${color:yellow}%P${color:default}⋅
                    }
 # ================================[ weechat item ]===============================
 # regexp to match ${color} tags
-regex_color=re.compile('\$\{([^\{\}]+)\}')
+regex_color=re.compile(r'\$\{([^\{\}]+)\}')
 
 # regexp to match ${optional string} tags
-regex_optional_tags=re.compile('%\{[^\{\}]+\}')
+regex_optional_tags=re.compile(r'%\{[^\{\}]+\}')
 
 filter_status = 0
 
